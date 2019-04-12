@@ -3,6 +3,7 @@
 	<string name="lifecycle_button">Lifecycle</string>
 	<string name="list_button">List</string>
 	<string name="service_button">Service</string>
+    <string name="stop_service_button">Stop service</string>
 	<string name="no_result_text">Result is empty!</string>
 	<string name="get_result_text">Get result</string>
 	<string name="set_result_text">Set result</string>

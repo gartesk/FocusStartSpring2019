@@ -21,6 +21,8 @@
         <activity android:name=".lifecycle.LifecycleActivity" />
         <activity android:name=".lifecycle.LifecycleResultActivity" />
         <activity android:name=".list.ListActivity" />
+
+        <service android:name=".service.ExampleForegroundService" />
     </application>
 
 </manifest>
