@@ -1,0 +1,10 @@
+*.iml
+.gradle
+/.idea
+/local.properties
+/build
+libs/
+test-reports/
+tools/detekt/reports/
+
+*.puml
