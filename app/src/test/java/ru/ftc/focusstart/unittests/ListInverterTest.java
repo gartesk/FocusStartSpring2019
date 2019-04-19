@@ -32,4 +32,24 @@ public class ListInverterTest {
         expectedResult.add("qwe");
         assertEquals(expectedResult, actualResult);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testInvertNull() {
+        listInverter.invertList(null);
+    }
+
+    @Test
+    public void testInvertListWithNulls() {
+        List<String> input = new ArrayList<>();
+        input.add("qwe");
+        input.add(null);
+        input.add("zxc");
+
+        List<String> actualResult = listInverter.invertList(input);
+
+        List<String> expectedResult = new ArrayList<>();
+        expectedResult.add("zxc");
+        expectedResult.add("qwe");
+        assertEquals(expectedResult, actualResult);
+    }
 }

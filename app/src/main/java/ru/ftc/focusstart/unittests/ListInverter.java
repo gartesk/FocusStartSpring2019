@@ -11,7 +11,10 @@ public class ListInverter {
         }
         List<String> output = new ArrayList<>();
         for (int i = input.size() - 1; i >= 0; --i) {
-            output.add(input.get(i));
+            String value = input.get(i);
+            if (value != null) {
+                output.add(value);
+            }
         }
         return output;
     }
